@@ -1,0 +1,130 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    background-color: white;
+}
+
+@media (min-width: 768px) { 
+        body {
+        background-color: #e7cfa3;
+    }
+}
+
+.destacar {
+    font-weight: bold;
+}
+
+p{
+    line-height: 1.5; 
+    font-size: 2rem;
+}
+
+li{
+    line-height: 1.5; 
+    font-size: 2rem;    
+}
+
+ul li::marker {
+  color: #9351b5;
+  font-size: 3rem;
+
+}
+
+ol li::marker {
+  color: #cd8e57;
+  font-weight: 900;
+}
+
+table{
+    width: 80%;
+    align-items: center;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px 0;
+    border-bottom: 1px solid #e7cfa3;
+}
+
+td:first-child {
+    color: black;
+    line-height: 1.5; 
+    font-size: 2rem;
+}
+
+td:last-child {
+    font-weight: 900;
+    color: #cd8e57;
+    line-height: 1.5; 
+    font-size: 2rem;
+}
+
+hr{
+    border: none;
+    border-top: 1px solid #cd8e57;
+    margin: 20px 0;  
+}
+/*Globales*/
+
+@media (min-width: 768px) { 
+    .contenedor{
+        width: 90%;
+        margin: 10rem auto;
+        max-width: 60rem;
+    }
+}
+.contenedor {
+    max-width: 150rem;    
+    background-color: white;
+    border-radius: 1.5rem;
+    width: 90%;
+    margin: 8rem auto 8rem auto;
+}
+
+.card__img{
+    width: 100%;
+    display: block;
+    margin: 0;
+}
+
+.card__title{
+    font-size: 6rem;
+}
+
+.card__title2{
+    font-size: 4rem; 
+    color: #cd8e57;
+}
+
+
+@media (min-width: 768px) { 
+    .card {
+        padding: 8rem; /*arriba-0, lados-5, abajo-2*/
+    }
+}
+
+.preparacion{
+    background: #eee2f4;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.preparacion__title3{
+    color: #9351b5;
+}
+
+.nutrition{
+    margin-top: 2rem;
+}
+
+
